@@ -70,6 +70,24 @@ body {
   list-style: none;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-nav-list {
+  display: inline-flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+.header-address-list {
+  display: inline-flex;
+  gap: 40px;
+}
+
 .header-nav-list .link {
   color: #2e2f42;
   font-weight: 500;
@@ -144,6 +162,13 @@ body {
   margin-bottom: 120px;
 }
 
+.section-principles .list {
+  display: flex;
+  flex-direction: row;
+  min-width: 264px;
+  gap: 24px;
+}
+
 .principle-list .title {
   color: #2e2f42;
   font-weight: 500;
@@ -177,8 +202,9 @@ body {
 }
 
 .section-design-example .list {
-  padding-bottom: 120px;
-  display: inline-block;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-our-team {
@@ -199,11 +225,17 @@ body {
 
 .section-our-team .list {
   padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .team-list {
   background-color: #ffffff;
   text-align: center;
+}
+
+.team-list img {
+  display: block;
 }
 
 .section-our-team .title {
@@ -224,6 +256,17 @@ body {
   padding-bottom: 32px;
 }
 
+.filter-section {
+  padding: 96px;
+}
+
+.filter-list {
+  display: flex;
+  margin-bottom: 76px;
+  gap: 24px;
+  justify-content: center;
+}
+
 .button-portfolio {
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -234,12 +277,26 @@ body {
   letter-spacing: 0.04em;
   text-transform: capitalize;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  margin-bottom: 120px;
 }
 
 .portfolio-examples .title {
@@ -249,6 +306,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px;
+  padding-top: 32px;
 }
 
 .portfolio-examples .paragraph {
@@ -261,6 +320,10 @@ body {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer .footer-container {
+  max-width: 264px;
 }
 
 .footer-logo {
