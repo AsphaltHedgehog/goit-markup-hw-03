@@ -80,6 +80,11 @@ body {
   align-items: center;
 }
 
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-nav-list .link {
   color: #2e2f42;
   font-weight: 500;
@@ -107,6 +112,7 @@ body {
 
 .header-address-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-address-list .text {
