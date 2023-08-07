@@ -92,6 +92,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: inline-block;
 }
 
 .header-nav-list .link:hover,
@@ -121,6 +122,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+
+.header-address-list .text {
+  display: inline-block;
 }
 
 .section-hero {
@@ -165,10 +171,6 @@ body {
   background-color: #404bbf;
 }
 
-.section-hero .container {
-  margin-bottom: 120px;
-}
-
 .section-principles {
   padding: 120px 0;
 }
@@ -199,14 +201,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.principle-list {
-  margin-bottom: 120px;
-}
-
-.section-design-example {
-  padding-bottom: 120px;
 }
 
 .example-flex {
@@ -248,7 +242,6 @@ body {
 }
 
 .section-our-team .list {
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
@@ -280,7 +273,6 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -290,7 +282,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
   text-align: center;
 }
 
